@@ -1,0 +1,96 @@
+:root {
+  --primary-black: #05111f;
+  --dark-bg: #0a1f35;
+  --accent-cyan: #22d3ee;
+  --accent-purple: #f97316;
+  --accent-gold: #facc15;
+  --text-light: #e5f4ff;
+  --text-muted: #9fb7ca;
+  --card-bg: #10253c;
+
+  font-family: 'Segoe UI', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+  font-weight: 400;
+
+  color-scheme: dark;
+  color: var(--text-light);
+  background-color: var(--primary-black);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+a {
+  font-weight: 600;
+  color: var(--accent-cyan);
+  text-decoration: none;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+a::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: linear-gradient(90deg, var(--accent-cyan), var(--accent-gold));
+  transition: width 0.3s ease;
+}
+
+a:hover {
+  color: var(--accent-gold);
+}
+
+a:hover::after {
+  width: 100%;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at 10% 0%, rgba(34, 211, 238, 0.18), transparent 35%),
+    radial-gradient(circle at 85% 15%, rgba(249, 115, 22, 0.2), transparent 32%),
+    linear-gradient(135deg, var(--primary-black) 0%, var(--dark-bg) 100%);
+  animation: fadeIn 0.6s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1.25rem;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 0.75rem;
+  }
+}
