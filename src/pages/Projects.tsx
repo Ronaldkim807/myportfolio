@@ -10,11 +10,22 @@ export default function Projects() {
             <h3>NairobiL&amp;B Event Booking System</h3>
             <span className="status">Ongoing</span>
           </div>
-          <p className="project-desc">React, Express, PostgreSQL, and M-Pesa Daraja integration for booking and payments.</p>
+          <p className="project-desc">
+            NairobiL&amp;B is a comprehensive event management platform for discovering, booking, and managing
+            events in Nairobi and beyond. It supports secure user authentication, real-time ticket availability,
+            M-Pesa STK Push payments, and role-based dashboards for users, organizers, and admins. The backend
+            is built with Node.js, Express, Prisma, and PostgreSQL, with an OpenAI-powered chatbot for support.
+            The frontend uses React and Tailwind CSS to deliver a responsive and user-friendly experience.
+          </p>
           <div className="tech-tags">
             <span className="tag">React</span>
             <span className="tag">Express</span>
             <span className="tag">PostgreSQL</span>
+            <span className="tag">Prisma</span>
+            <span className="tag">Tailwind CSS</span>
+            <span className="tag">M-Pesa STK Push</span>
+            <span className="tag">JWT Auth</span>
+            <span className="tag">OpenAI Chatbot</span>
           </div>
           <div className="project-actions">
             <a
@@ -50,14 +61,25 @@ export default function Projects() {
             <h3>Personal Portfolio Website</h3>
             <span className="status">Completed</span>
           </div>
-          <p className="project-desc">Modern, responsive React portfolio with animations and contact form.</p>
+          <p className="project-desc">
+            Modern, responsive React portfolio built with TypeScript, React Router, and custom CSS.
+            Deployed on Netlify with CI/CD pipeline for automatic build and deployment on each push.
+          </p>
           <div className="tech-tags">
             <span className="tag">React</span>
             <span className="tag">CSS</span>
             <span className="tag">TypeScript</span>
+            <span className="tag">React Router</span>
+            <span className="tag">Netlify</span>
+            <span className="tag">CI/CD</span>
           </div>
           <div className="project-actions">
-            <a className="project-live-button disabled" href="#" aria-disabled="true">
+            <a
+              className="project-live-button"
+              href="https://ronaldkimutai.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               View Live
             </a>
           </div>
