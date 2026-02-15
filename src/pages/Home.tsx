@@ -56,7 +56,7 @@ export default function Home() {
             </svg>
           </div>
           <h3>Achievements</h3>
-          <p>Built production-ready projects, completed ongoing HTB labs, and continuously improving cloud and security engineering skills.</p>
+          <p>Built production-ready projects, completed ongoing HTB labs and continuously improving cloud and security engineering skills.</p>
         </article>
 
         <article className="card contact-card">
