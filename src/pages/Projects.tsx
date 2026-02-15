@@ -13,8 +13,8 @@ export default function Projects() {
           <p className="project-desc">
             NairobiL&amp;B is a comprehensive event management platform for discovering, booking, and managing
             events in Nairobi and beyond. It supports secure user authentication, real-time ticket availability,
-            M-Pesa STK Push payments, and role-based dashboards for users, organizers, and admins. The backend
-            is built with Node.js, Express, Prisma, and PostgreSQL, with an OpenAI-powered chatbot for support.
+            M-Pesa STK Push payments and role-based dashboards for users, organizers and admins. The backend
+            is built with Node.js, Express, Prisma and PostgreSQL, with an OpenAI-powered chatbot for support.
             The frontend uses React and Tailwind CSS to deliver a responsive and user-friendly experience.
           </p>
           <div className="tech-tags">
@@ -62,7 +62,7 @@ export default function Projects() {
             <span className="status">Completed</span>
           </div>
           <p className="project-desc">
-            Modern, responsive React portfolio built with TypeScript, React Router, and custom CSS.
+            Modern, responsive React portfolio built with TypeScript, React Router and custom CSS.
             Deployed on Netlify with CI/CD pipeline for automatic build and deployment on each push.
           </p>
           <div className="tech-tags">

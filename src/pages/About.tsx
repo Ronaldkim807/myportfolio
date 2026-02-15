@@ -6,7 +6,10 @@ export default function About() {
       <h2>About Me</h2>
       <div className="section">
         <p className="lead-text">
-          I am an IT student at KCA University with hands-on experience in full-stack development and application security. I am currently training on Hack The Box (HTB) to strengthen my practical skills in application security and database security. I am also learning AWS because I am working toward a career as a cloud engineer and security engineer. I am open to internships where I can gain more real-world, hands-on experience and contribute to impactful projects.
+          I am an IT student at KCA University with hands-on experience in full-stack development and application security and
+            I'm  currently doing HTB training to improve application and database security skills, also
+            learning AWS as I work toward becoming a cloud and security engineer Always Open to internships for
+            real-world hands-on experience.
         </p>
       </div>
 
@@ -28,7 +31,7 @@ export default function About() {
           <div className="timeline-dot"></div>
           <div className="timeline-content">
             <p className="timeline-title">Practical Skill Building</p>
-            <p className="timeline-subtitle">Full-Stack Development, HTB Security Labs, AWS Learning Path</p>
+            <p className="timeline-subtitle">Full-Stack Development, HTB Security Labs and AWS Learning Path</p>
             <p className="timeline-date">Ongoing</p>
           </div>
         </div>

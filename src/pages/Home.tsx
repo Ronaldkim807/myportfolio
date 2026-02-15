@@ -8,9 +8,9 @@ export default function Home() {
           <h1 className="hero-title">Ronald Kiptulwo Kimutai</h1>
           <p className="hero-subtitle">IT Student | Full-Stack &amp; Security Learner</p>
           <p className="hero-summary">
-            I am an IT student with hands-on experience in full-stack development and application security.
-            I am currently doing HTB training to improve application and database security skills, while
-            learning AWS as I work toward becoming a cloud and security engineer. Open to internships for
+            I am an IT student at KCA University with hands-on experience in full-stack development and application security and
+            I'm  currently doing HTB training to improve application and database security skills, also
+            learning AWS as I work toward becoming a cloud and security engineer Always Open to internships for
             real-world hands-on experience.
           </p>
           <div className="hero-actions">
