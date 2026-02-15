@@ -20,7 +20,7 @@ export default function Home() {
         <div className="hero-decoration">
           <div className="profile-container">
             <img 
-              src="src/assets/Photo/my photo 1.jpg" 
+              src="/Photo/my photo 1.jpg" 
               alt="Ronald Kimutai Profile" 
               className="profile-image"
               loading="lazy"
