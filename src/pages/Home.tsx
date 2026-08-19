@@ -6,15 +6,16 @@ export default function Home() {
       <div className="hero">
         <div className="hero-content">
           <h1 className="hero-title">Ronald Kiptulwo Kimutai</h1>
-          <p className="hero-subtitle">IT Student | Full-Stack &amp; Security Learner</p>
+          <p className="hero-subtitle">Junior Software Engineer | Security Researcher</p>
           <p className="hero-summary">
-            I am an IT student at KCA University with hands-on experience in full-stack development and application security and
-            I'm  currently doing HTB training to improve application and database security skills, also
-            learning AWS as I work toward becoming a cloud and security engineer Always Open to internships for
-            real-world hands-on experience.
+            IT graduate from KCA University with hands-on full-stack development experience at the 
+            Kenya Revenue Authority (KRA). Built production-ready applications using Angular, React, 
+            Node.js, FastAPI, and PostgreSQL. Passionate about application security, AWS cloud, and 
+            solving real-world problems through technology.
           </p>
           <div className="hero-actions">
             <a href="/contact" className="button">Get In Touch</a>
+            <a href="/projects" className="button button-outline">View My Work</a>
           </div>
         </div>
         <div className="hero-decoration">
@@ -40,11 +41,11 @@ export default function Home() {
               <path d="M2 19h20" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
             </svg>
           </div>
-          <h3>Skills</h3>
+          <h3>Tech Stack</h3>
           <ul>
-            <li>Full-Stack Development</li>
-            <li>Application Security</li>
-            <li>Database Security</li>
+            <li>Angular · React · TypeScript</li>
+            <li>Node.js · FastAPI · PostgreSQL</li>
+            <li>Application &amp; Database Security</li>
             <li>AWS Cloud Fundamentals</li>
           </ul>
         </article>
@@ -55,8 +56,12 @@ export default function Home() {
               <path d="M12 2l2.39 4.847L19 8.179l-3.5 3.412L16.78 18 12 15.27 7.22 18l1.28-6.409L5 8.179l4.61-.332L12 2z" fill="currentColor" />
             </svg>
           </div>
-          <h3>Achievements</h3>
-          <p>Built production-ready projects, completed ongoing HTB labs and continuously improving cloud and security engineering skills.</p>
+          <h3>Experience</h3>
+          <p>
+            <strong>KRA Internship (05/2026 – 08/2026):</strong> Built TaxConnect—a visitor feedback 
+            and service-tracking system with role-based login, reporting tools, and automated email 
+            feedback. Also contributed to ETIMS API testing.
+          </p>
         </article>
 
         <article className="card contact-card">
@@ -66,8 +71,14 @@ export default function Home() {
               <path d="M21 7.5l-9 6-9-6" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
             </svg>
           </div>
-          <h3>Contact</h3>
-          <p>kimutaironald48@gmail.com — 0716012357</p>
+          <h3>Get In Touch</h3>
+          <p>kimutaironald48@gmail.com</p>
+          <p>0716012357</p>
+          <p className="social-links">
+            <a href="https://linkedin.com/in/ronald-kimutai-172129345/" target="_blank" rel="noopener">LinkedIn</a> · 
+            <a href="https://github.com/Ronaldkim807" target="_blank" rel="noopener">GitHub</a> · 
+            <a href="https://ronaldkimutai.netlify.app/" target="_blank" rel="noopener">Portfolio</a>
+          </p>
         </article>
       </section>
     </section>

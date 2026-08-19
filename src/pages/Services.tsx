@@ -3,60 +3,65 @@ import '../styles/pages.css'
 export default function Services() {
   return (
     <section className="page services">
-      <h2>Services</h2>
+      <h2>What I Do</h2>
+      <p className="section-description">
+        I combine full-stack development skills with a growing security mindset to build 
+        functional, secure, and user-friendly applications.
+      </p>
+      
       <div className="grid cards">
-        <article className="card service-card">
-          <div className="card-icon">AS</div>
-          <h3>Application Security</h3>
-          <p>Secure coding support and vulnerability awareness for safer applications.</p>
-          <ul>
-            <li>Secure coding practices</li>
-            <li>Vulnerability checks</li>
-            <li>Authentication hardening</li>
-          </ul>
-        </article>
-
         <article className="card service-card">
           <div className="card-icon">FS</div>
           <h3>Full-Stack Development</h3>
-          <p>Build modern web apps from frontend interfaces to backend APIs.</p>
+          <p>End-to-end web applications with modern frameworks and robust backend systems.</p>
           <ul>
-            <li>Responsive frontend UI</li>
-            <li>API integration</li>
-            <li>Database-backed features</li>
+            <li>Frontend: Angular · React · TypeScript</li>
+            <li>Backend: Node.js · FastAPI · Express</li>
+            <li>Database: PostgreSQL · Prisma ORM</li>
           </ul>
         </article>
 
         <article className="card service-card">
-          <div className="card-icon">IT</div>
-          <h3>IT Support</h3>
-          <p>Reliable technical support for software, hardware and user issues.</p>
+          <div className="card-icon">AS</div>
+          <h3>Application Security</h3>
+          <p>Secure coding practices and vulnerability awareness built through HTB Academy training.</p>
           <ul>
-            <li>Diagnostics and troubleshooting</li>
-            <li>Software setup</li>
-            <li>User assistance and training</li>
+            <li>Secure authentication &amp; authorization</li>
+            <li>Database security fundamentals</li>
+            <li>API security best practices</li>
           </ul>
         </article>
 
         <article className="card service-card">
           <div className="card-icon">DA</div>
-          <h3>Desktop Administration</h3>
-          <p>Desktop environment setup, maintenance and endpoint optimization.</p>
+          <h3>API Development &amp; Testing</h3>
+          <p>RESTful API design, integration, and testing using tools like Postman.</p>
           <ul>
-            <li>OS installation and updates</li>
-            <li>System configuration</li>
-            <li>Performance tuning</li>
+            <li>API design with FastAPI · Node.js</li>
+            <li>Testing with Postman</li>
+            <li>Integration with frontend applications</li>
           </ul>
         </article>
 
         <article className="card service-card">
-          <div className="card-icon">JC</div>
-          <h3>Junior Cyber Security</h3>
-          <p>Entry-level cyber defense support with practical security fundamentals.</p>
+          <div className="card-icon">IT</div>
+          <h3>IT Support &amp; Administration</h3>
+          <p>Reliable technical support, diagnostics, and desktop administration.</p>
           <ul>
-            <li>Basic threat monitoring</li>
-            <li>Access control support</li>
-            <li>Security awareness best practices</li>
+            <li>OS installation · System configuration</li>
+            <li>Performance tuning · Troubleshooting</li>
+            <li>User assistance and training</li>
+          </ul>
+        </article>
+
+        <article className="card service-card">
+          <div className="card-icon">CL</div>
+          <h3>Cloud Learning &amp; Implementation</h3>
+          <p>Building AWS cloud fundamentals with practical application.</p>
+          <ul>
+            <li>AWS core services exploration</li>
+            <li>Cloud architecture basics</li>
+            <li>CI/CD pipeline deployment (Netlify)</li>
           </ul>
         </article>
       </div>
